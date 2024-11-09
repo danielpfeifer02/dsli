@@ -7,6 +7,9 @@ namespace dsli {
         ~DSLI();
         void run_prompt();
         void run_script(char *filename);
+
+    private:
+        void run(const std::string &script);
     };
 } // namespace dsli
 
